@@ -1,0 +1,28 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Cache y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vscode/
+
+# Compilaciones y distribuciones
+dist/
+build/
+
+# Archivos del editor
+.idea/
+*.swp
+
+# Archivos generados por npm/yarn
+package-lock.json
+yarn.lock
